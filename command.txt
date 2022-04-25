@@ -1,0 +1,6 @@
+python3 -m venv project
+pip freeze > requirements.txt
+source project/bin/activate 
+deactivate
+
+python3 main.py --model_name cnn --num_epochs 3
